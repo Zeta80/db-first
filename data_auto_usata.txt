@@ -1,0 +1,26 @@
+
+
+
+
+
+
+
+
+id - INT - PRIMARY_KEY(NOTNULL, UNIQUE) - AUTO_INCREMENT
+immagine - VARCHAR(255) - NOTNULL - DEFAULT("/img/src/default.jpg")
+marca - VARCHAR(100) - NOTNULL - INDEX
+modello - VARCHAR(13) - NOTNULL
+Versione - VARCHAR(30) - NOTNULL
+Tipologia - VARCHAR(20) - NOTNULL
+Carburante - VARCHAR(5) - NOTNULL
+cambio - VARCHAR(10) - NOTNULL
+Immatricolazione - YEAR - NOTNULL
+description - TEXT - NULL
+km - MEDIUMINT - NOTNULL
+riparazioni - TINYINT - NOTNULL - DEFAULT(0)
+price - DECIMAL(7, 2) - NOTNULL
+
+
+
+
+
